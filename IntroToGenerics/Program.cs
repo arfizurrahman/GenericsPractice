@@ -9,15 +9,15 @@ namespace IntroToGenerics
         // The nested class is also generic on T
         private class Node
         {
-            
 
+            private Node next;
             // Getter, Setter
             public Node Next
             {
                 get { return next; }
                 set { next = value;  }
             }
-            private Node next;
+            
             // T as private member data type.
             private T data;
 
